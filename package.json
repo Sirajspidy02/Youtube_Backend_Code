@@ -5,8 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon src/index.js",
-    "start": "index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
@@ -17,6 +16,7 @@
   "author": "Siraj",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "prettier": "^3.5.3"
   }
 }
